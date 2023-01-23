@@ -81,6 +81,20 @@ type = "directory"
 url = "../lib/mylib"
 
 [[package]]
+name = "mylib2"
+version = "0.1.0"
+description = ""
+category = "main"
+optional = false
+python-versions = "^3.7"
+files = []
+develop = false
+
+[package.source]
+type = "directory"
+url = "../lib/mylib2"
+
+[[package]]
 name = "numpy"
 version = "1.24.1"
 description = "Fundamental package for array computing in Python"
@@ -300,4 +314,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.8,<3.11"
-content-hash = "7e913211da2410fe220e1848248abd6d8191a9fd09b313c4850e2c0150add63f"
+content-hash = "34762d5dd33fbfb435a9d9484cb700fe957e9e4a4c89bedb659e5fa6ff434a80"

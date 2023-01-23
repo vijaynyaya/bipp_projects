@@ -11,6 +11,7 @@ click = "^7.1.2"
 pandas = "^1.4.0"
 numpy = "^1.23.0"
 mylib = {path = "../lib/mylib"}
+mylib2 = {path = "../lib/mylib2"}
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
